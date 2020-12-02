@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F2A309F9-8D69-4D44-BF91-F10C61CBE69E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TestConversions</RootNamespace>
+    <AssemblyName>TestConversions</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr4.Runtime.Standard, Version=4.7.1.0, Culture=neutral, PublicKeyToken=e78b2c5abd1fcb3f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr4.Runtime.Standard.4.7.1.1\lib\net35\Antlr4.Runtime.Standard.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="-RFEM-Example-06.ifc" />
+    <None Include="2AreaSections.ifc" />
+    <None Include="App.config" />
+    <None Include="backup.ifc" />
+    <None Include="first issue+GlobalZLoads .%242k" />
+    <None Include="first issue.%242k" />
+    <None Include="firstIssue-WrittenModel.std" />
+    <None Include="packages.config" />
+    <None Include="SAP-Prototype v2.%242k" />
+    <None Include="SAP-TestLoadCoordinates.ifc" />
+    <None Include="SIMPLE-1 %281%29.%242k" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IFCModelConverter\IFCModelConverter.csproj">
+      <Project>{4f6ae0d5-0697-40b2-ac85-8dc08b06f146}</Project>
+      <Name>IFCModelConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAMC2\SAMC2.csproj">
+      <Project>{2ab07ddf-9aec-45ba-b9ac-6fcaa5c4eb5a}</Project>
+      <Name>SAMC2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SapConverter\SapConverter.csproj">
+      <Project>{ddfdd11f-680c-4aec-927b-64234b55ae5d}</Project>
+      <Name>SapConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StaadConverter\StaadConverter.csproj">
+      <Project>{ea6a9a92-2e7e-4d21-bd70-bd88207f1613}</Project>
+      <Name>StaadConverter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

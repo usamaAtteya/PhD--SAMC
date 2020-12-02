@@ -1,0 +1,959 @@
+File E:\Sapmy2.$2k was saved on m/d/yy at h:mm:ss
+ 
+TABLE:  "ACTIVE DEGREES OF FREEDOM"
+   UX=Yes   UY=Yes   UZ=Yes   RX=Yes   RY=Yes   RZ=Yes
+ 
+TABLE:  "ANALYSIS OPTIONS"
+   Solver=Advanced   SolverProc=Auto   Force32Bit=No   StiffCase=None   GeomMod=None
+ 
+TABLE:  "AREA SECTION ASSIGNMENTS"
+   Area="Floor:IEDM S 120:195561"   Section="Default Floor 120.000"   MatProp=Default
+   Area="Floor:IEDM S 120:195605"   Section="Default Floor 120.000"   MatProp=Default
+   Area="Floor:IEDM S 120:195675"   Section="Default Floor 120.000"   MatProp=Default
+   Area="Floor:IEDM S 120:195684"   Section="Default Floor 120.000"   MatProp=Default
+   Area="Floor:IEDM S 150:195509"   Section="Default Floor 150.000"   MatProp=Default
+   Area="Floor:IEDM S 150:195666"   Section="Default Floor 150.000"   MatProp=Default
+   Area="Floor:IEDM S 220:195297"   Section="Default Floor 220.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:197712"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:197772"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:197788"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:197801"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:197814"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:197831"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:197848"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:197861"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:197874"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:197887"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:197969"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:197982"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:197991"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:198004"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:198013"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:198026"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:198043"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:198060"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+   Area="Basic Wall:Exterior - 300mm Concrete:198073"   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   MatProp=Default
+ 
+TABLE:  "AREA SECTION PROPERTIES"
+   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=Yes   Thickness=300   BendThick=300   Color=Cyan   F11Mod=1 _
+        F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1   MMod=1   WMod=1
+   Section="Default Floor 120.000"   Material="Default Floor"   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=Yes   Thickness=120   BendThick=120   Color=Cyan   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1 _
+        V13Mod=1   V23Mod=1   MMod=1   WMod=1
+   Section="Default Floor 150.000"   Material="Default Floor"   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=Yes   Thickness=150   BendThick=150   Color=Blue   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1 _
+        V13Mod=1   V23Mod=1   MMod=1   WMod=1
+   Section="Default Floor 220.000"   Material="Default Floor"   MatAngle=0   AreaType=Shell   Type=Shell-Thin   DrillDOF=Yes   Thickness=220   BendThick=220   Color=Red   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1 _
+        V13Mod=1   V23Mod=1   MMod=1   WMod=1
+ 
+TABLE:  "AREA SECTION PROPERTY DESIGN PARAMETERS"
+   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   RebarMat=None   RebarOpt=Default
+   Section="Default Floor 120.000"   RebarMat=None   RebarOpt=Default
+   Section="Default Floor 150.000"   RebarMat=None   RebarOpt=Default
+   Section="Default Floor 220.000"   RebarMat=None   RebarOpt=Default
+ 
+TABLE:  "AREA SECTION PROPERTY - TIME DEPENDENT"
+   Section="Concrete - Cast-in-Place Concrete - 28 MPa 300.000"   TypeSize=Auto   AutoSFSize=1
+   Section="Default Floor 120.000"   TypeSize=Auto   AutoSFSize=1
+   Section="Default Floor 150.000"   TypeSize=Auto   AutoSFSize=1
+   Section="Default Floor 220.000"   TypeSize=Auto   AutoSFSize=1
+ 
+TABLE:  "AUTO WAVE 3 - WAVE CHARACTERISTICS - GENERAL"
+   WaveChar=Default   WaveType="From Theory"   KinFactor=1   SWaterDepth=45000   WaveHeight=18000   WavePeriod=12   WaveTheory=Linear
+ 
+TABLE:  "CASE - MODAL 1 - GENERAL"
+   Case=MODAL   ModeType=Eigen   MaxNumModes=12   MinNumModes=1   EigenShift=0   EigenCutoff=0   EigenTol=1E-09   AutoShift=Yes
+ 
+TABLE:  "CASE - STATIC 1 - LOAD ASSIGNMENTS"
+   Case=DEAD   LoadType="Load pattern"   LoadName=DEAD   LoadSF=1
+ 
+TABLE:  "CONNECTIVITY - AREA"
+   Area="Floor:IEDM S 120:195561"   Joint1=195   Joint2=196   Joint3=197   Joint4=198   GUID=4d7fc500-857a-4ddb-947c-1b835398dcf0
+   Area="Floor:IEDM S 120:195605"   Joint1=199   Joint2=195   Joint3=200   Joint4=201   GUID=186590ec-7549-421b-aea3-0c09e566d368
+   Area="Floor:IEDM S 120:195675"   Joint1=198   Joint2=197   Joint3=206   Joint4=207   GUID=907159a9-5a64-4475-80cf-4952ef431c2f
+   Area="Floor:IEDM S 120:195684"   Joint1=208   Joint2=209   Joint3=210   Joint4=211   GUID=391b176b-1843-4ec9-a8fc-c8af1042fefc
+   Area="Floor:IEDM S 150:195509"   Joint1=191   Joint2=192   Joint3=193   Joint4=194   GUID=e63a9224-bd0e-437e-b5d0-a14dc69de0b1
+   Area="Floor:IEDM S 150:195666"   Joint1=202   Joint2=203   Joint3=204   Joint4=205   GUID=cc94ab9a-59b2-48f8-94b7-f981f173401a
+   Area="Floor:IEDM S 220:195297"   Joint1=179   Joint2=180   Joint3=181   Joint4=182   GUID=4a329a20-d0b7-4d76-bf3c-6476e89acfab
+   Area="Floor:IEDM S 220:195297"   Joint1=183   Joint2=184   Joint3=185   Joint4=186
+   Area="Floor:IEDM S 220:195297"   Joint1=187   Joint2=188   Joint3=189   Joint4=190
+   Area="Basic Wall:Exterior - 300mm Concrete:197712"   Joint1=109   Joint2=110   Joint3=111   Joint4=112   GUID=e418df91-ef53-41ff-95d9-203cde1a5f4d
+   Area="Basic Wall:Exterior - 300mm Concrete:197772"   Joint1=113   Joint2=114   Joint3=115   Joint4=116   GUID=370ab0fe-eb38-4e47-a75c-9fad911d6e3d
+   Area="Basic Wall:Exterior - 300mm Concrete:197788"   Joint1=117   Joint2=118   Joint3=119   Joint4=120   GUID=b3cbbbac-deb3-4e2e-8ba9-8afc7eb14b5f
+   Area="Basic Wall:Exterior - 300mm Concrete:197801"   Joint1=121   Joint2=122   Joint3=123   Joint4=124   GUID=9db94707-4b69-49dd-ae76-c59dd64bb86d
+   Area="Basic Wall:Exterior - 300mm Concrete:197814"   Joint1=125   Joint2=126   Joint3=127   Joint4=128   GUID=af1e19e7-d149-4a76-ab32-2ca11d815559
+   Area="Basic Wall:Exterior - 300mm Concrete:197831"   Joint1=129   Joint2=130   Joint3=131   Joint4=132   GUID=2729d1a7-1d3c-4d0c-aee8-22c3c36635c1
+   Area="Basic Wall:Exterior - 300mm Concrete:197848"   Joint1=133   Joint2=134   Joint3=135   Joint4=136   GUID=7cea28bf-8b09-4ec9-91bd-eb08bfcd31c7
+   Area="Basic Wall:Exterior - 300mm Concrete:197861"   Joint1=137   Joint2=138   Joint3=139   Joint4=140   GUID=0602b0b3-2c3f-4df8-bc82-b0748e5552c4
+   Area="Basic Wall:Exterior - 300mm Concrete:197874"   Joint1=141   Joint2=142   Joint3=143   Joint4=144   GUID=5f2111d1-80cd-4903-9f58-2b2a723b7637
+   Area="Basic Wall:Exterior - 300mm Concrete:197887"   Joint1=145   Joint2=146   Joint3=147   Joint4=148   GUID=d44b97cc-d466-4e81-aee4-59dfa2b0b823
+   Area="Basic Wall:Exterior - 300mm Concrete:197969"   Joint1=149   Joint2=150   Joint3=151   Joint4=152   GUID=86a8fdc7-5a95-4bd7-b153-352a0eab136e
+   Area="Basic Wall:Exterior - 300mm Concrete:197982"   Joint1=150   Joint2=153   Joint3=154   Joint4=151   GUID=359cd478-c439-46fc-9fd0-5688e640ca8f
+   Area="Basic Wall:Exterior - 300mm Concrete:197991"   Joint1=155   Joint2=156   Joint3=157   Joint4=158   GUID=f7515226-b053-4f86-a81b-5deb7773df62
+   Area="Basic Wall:Exterior - 300mm Concrete:198004"   Joint1=156   Joint2=159   Joint3=160   Joint4=157   GUID=8e8fed73-decf-4264-a900-563a2522464c
+   Area="Basic Wall:Exterior - 300mm Concrete:198013"   Joint1=161   Joint2=162   Joint3=163   Joint4=164   GUID=f5171f93-2219-42fb-ad2f-23dec2123837
+   Area="Basic Wall:Exterior - 300mm Concrete:198026"   Joint1=165   Joint2=166   Joint3=167   Joint4=168   GUID=226c73a2-ac0b-40c3-b7e3-49cd98cf34d2
+   Area="Basic Wall:Exterior - 300mm Concrete:198043"   Joint1=169   Joint2=170   Joint3=171   Joint4=172   GUID=1246232e-abb6-4b01-9191-e0882a43e767
+   Area="Basic Wall:Exterior - 300mm Concrete:198060"   Joint1=170   Joint2=173   Joint3=174   Joint4=171   GUID=ec11db6d-9e1e-4e75-a8e4-6b677ea0c496
+   Area="Basic Wall:Exterior - 300mm Concrete:198073"   Joint1=175   Joint2=176   Joint3=177   Joint4=178   GUID=b5b7dd52-cb59-43ae-a13e-d1eb4d39f53f
+ 
+TABLE:  "CONNECTIVITY - FRAME"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196258"   JointI=63   JointJ=64   IsCurved=No   GUID=655bb75f-7b9f-4268-b31b-3addc8ba36fd
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196271"   JointI=65   JointJ=66   IsCurved=No   GUID=655bb75f-7b9f-4268-b31b-3addc8ba36f0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196347"   JointI=67   JointJ=68   IsCurved=No   GUID=655bb75f-7b9f-4268-b31b-3addc8ba36a4
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196527"   JointI=75   JointJ=76   IsCurved=No   GUID=9dba4880-d9ad-4172-b829-919bd4616b9a
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196681"   JointI=79   JointJ=80   IsCurved=No   GUID=39320ae7-bc8c-4782-9c17-094b87cd364b
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196053"   JointI=51   JointJ=52   IsCurved=No   GUID=655bb75f-7b9f-4268-b31b-3addc8ba358a
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196064"   JointI=53   JointJ=54   IsCurved=No   GUID=655bb75f-7b9f-4268-b31b-3addc8ba35bf
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196096"   JointI=55   JointJ=56   IsCurved=No   GUID=655bb75f-7b9f-4268-b31b-3addc8ba365f
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196131"   JointI=57   JointJ=58   IsCurved=No   GUID=655bb75f-7b9f-4268-b31b-3addc8ba367c
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196162"   JointI=59   JointJ=60   IsCurved=No   GUID=655bb75f-7b9f-4268-b31b-3addc8ba361d
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196173"   JointI=61   JointJ=62   IsCurved=No   GUID=655bb75f-7b9f-4268-b31b-3addc8ba3612
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196965"   JointI=85   JointJ=86   IsCurved=No   GUID=6ba37b70-cbdc-4503-b27c-b44f7a4fa048
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:197206"   JointI=101   JointJ=102   IsCurved=No   GUID=056f75c1-da83-47ba-b98c-41489ad047bc
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:197221"   JointI=103   JointJ=104   IsCurved=No   GUID=056f75c1-da83-47ba-b98c-41489ad0478f
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196361"   JointI=69   JointJ=70   IsCurved=No   GUID=655bb75f-7b9f-4268-b31b-3addc8ba3756
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196395"   JointI=71   JointJ=72   IsCurved=No   GUID=655bb75f-7b9f-4268-b31b-3addc8ba3774
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196451"   JointI=73   JointJ=74   IsCurved=No   GUID=df84a2d5-ef39-40d8-b9f0-8d7d42ab7021
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196772"   JointI=81   JointJ=82   IsCurved=No   GUID=6ba37b70-cbdc-4503-b27c-b44f7a4fa189
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:197192"   JointI=99   JointJ=100   IsCurved=No   GUID=056f75c1-da83-47ba-b98c-41489ad047a2
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196591"   JointI=77   JointJ=78   IsCurved=No   GUID=87e0483b-053e-4d0b-a4ca-a78ede7db9cf
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196859"   JointI=83   JointJ=84   IsCurved=No   GUID=6ba37b70-cbdc-4503-b27c-b44f7a4fa1d6
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196978"   JointI=78   JointJ=87   IsCurved=No   GUID=6ba37b70-cbdc-4503-b27c-b44f7a4fa05f
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197017"   JointI=88   JointJ=89   IsCurved=No   GUID=6ba37b70-cbdc-4503-b27c-b44f7a4fa0b4
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197143"   JointI=94   JointJ=95   IsCurved=No   GUID=fb1ca48e-08da-4b1a-9c7a-82a10df58e28
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197162"   JointI=96   JointJ=77   IsCurved=No   GUID=fb1ca48e-08da-4b1a-9c7a-82a10df58e15
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197176"   JointI=97   JointJ=98   IsCurved=No   GUID=fb1ca48e-08da-4b1a-9c7a-82a10df58e07
+   Frame="M_Concrete-Rectangular Beam:IEDM - B5 - 250 * 700:197086"   JointI=90   JointJ=91   IsCurved=No   GUID=6ba37b70-cbdc-4503-b27c-b44f7a4fa0f3
+   Frame="M_Concrete-Rectangular Beam:IEDM - B5 - 250 * 700:197125"   JointI=92   JointJ=93   IsCurved=No   GUID=6ba37b70-cbdc-4503-b27c-b44f7a4fa328
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:192800"   JointI=1   JointJ=2   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb8225a
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:192968"   JointI=3   JointJ=4   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb822b2
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194087"   JointI=21   JointJ=22   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb8255d
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194089"   JointI=23   JointJ=24   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb82553
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194303"   JointI=41   JointJ=42   IsCurved=No   GUID=73b15fdd-dca3-49a3-af94-e099c8d8732a
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194336"   JointI=43   JointJ=44   IsCurved=No   GUID=73b15fdd-dca3-49a3-af94-e099c8d872f5
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:193440"   JointI=7   JointJ=8   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb820da
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:194093"   JointI=27   JointJ=28   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb82557
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:194416"   JointI=45   JointJ=46   IsCurved=No   GUID=73b15fdd-dca3-49a3-af94-e099c8d872a5
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3 - 300*500:193060"   JointI=5   JointJ=6   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb8215e
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3 - 300*500:194091"   JointI=25   JointJ=26   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb82551
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1' - 120 * 700:197252"   JointI=105   JointJ=106   IsCurved=No   GUID=056f75c1-da83-47ba-b98c-41489ad0476e
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1' - 120 * 700:197438"   JointI=107   JointJ=108   IsCurved=No   GUID=d2c0a304-4b79-4e72-9e14-997a82af2d1e
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193550"   JointI=11   JointJ=12   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb82774
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193584"   JointI=13   JointJ=14   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb8274a
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193617"   JointI=15   JointJ=16   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb8272b
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194097"   JointI=31   JointJ=32   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb8254b
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194099"   JointI=33   JointJ=34   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb82549
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194101"   JointI=35   JointJ=36   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb8254f
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2' - 250 * 400:194470"   JointI=47   JointJ=48   IsCurved=No   GUID=73b15fdd-dca3-49a3-af94-e099c8d87273
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2' - 250 * 400:194498"   JointI=49   JointJ=50   IsCurved=No   GUID=73b15fdd-dca3-49a3-af94-e099c8d87217
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:193497"   JointI=9   JointJ=10   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb820a3
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194011"   JointI=17   JointJ=18   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb826a1
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194062"   JointI=19   JointJ=20   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb82574
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194095"   JointI=29   JointJ=30   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb82555
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194103"   JointI=37   JointJ=38   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb8254d
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194105"   JointI=39   JointJ=40   IsCurved=No   GUID=f8dbc046-8522-4709-b469-39107fb82543
+ 
+TABLE:  "COORDINATE SYSTEMS"
+   Name=GLOBAL   Type=Cartesian   X=0   Y=0   Z=0   AboutZ=0   AboutY=0   AboutX=0
+ 
+TABLE:  "DATABASE DOCUMENTATION"
+ 
+TABLE:  "DATABASE FORMAT TYPES"
+   UnitsCurr=Yes   OverrideE=No
+ 
+TABLE:  "FRAME AUTO MESH ASSIGNMENTS"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196258"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196271"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196347"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196527"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196681"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196053"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196064"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196096"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196131"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196162"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196173"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196965"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:197206"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:197221"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196361"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196395"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196451"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196772"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:197192"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196591"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196859"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196978"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197017"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197143"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197162"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197176"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B5 - 250 * 700:197086"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B5 - 250 * 700:197125"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:192800"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:192968"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194087"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194089"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194303"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194336"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:193440"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:194093"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:194416"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3 - 300*500:193060"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3 - 300*500:194091"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1' - 120 * 700:197252"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1' - 120 * 700:197438"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193550"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193584"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193617"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194097"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194099"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194101"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2' - 250 * 400:194470"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2' - 250 * 400:194498"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:193497"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194011"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194062"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194095"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194103"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194105"   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+ 
+TABLE:  "FRAME DESIGN PROCEDURES"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196258"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196271"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196347"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196527"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196681"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196053"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196064"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196096"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196131"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196162"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196173"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196965"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:197206"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:197221"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196361"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196395"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196451"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196772"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:197192"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196591"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196859"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196978"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197017"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197143"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197162"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197176"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B5 - 250 * 700:197086"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B5 - 250 * 700:197125"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:192800"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:192968"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194087"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194089"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194303"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194336"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:193440"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:194093"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:194416"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3 - 300*500:193060"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3 - 300*500:194091"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1' - 120 * 700:197252"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1' - 120 * 700:197438"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193550"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193584"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193617"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194097"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194099"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194101"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2' - 250 * 400:194470"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2' - 250 * 400:194498"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:193497"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194011"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194062"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194095"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194103"   DesignProc="No Design"
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194105"   DesignProc="No Design"
+ 
+TABLE:  "FRAME LOAD TRANSFER OPTIONS"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196258"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196271"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196347"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196527"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196681"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196053"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196064"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196096"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196131"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196162"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196173"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196965"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:197206"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:197221"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196361"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196395"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196451"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196772"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:197192"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196591"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196859"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196978"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197017"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197143"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197162"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197176"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B5 - 250 * 700:197086"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B5 - 250 * 700:197125"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:192800"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:192968"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194087"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194089"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194303"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194336"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:193440"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:194093"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:194416"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3 - 300*500:193060"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3 - 300*500:194091"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1' - 120 * 700:197252"   Transfer=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1' - 120 * 700:197438"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193550"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193584"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193617"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194097"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194099"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194101"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2' - 250 * 400:194470"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2' - 250 * 400:194498"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:193497"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194011"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194062"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194095"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194103"   Transfer=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194105"   Transfer=Yes
+ 
+TABLE:  "FRAME LOCAL AXES ASSIGNMENTS 1 - TYPICAL"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196271"   Angle=180
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196347"   Angle=-90
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196527"   Angle=-90
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196053"   Angle=90
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196096"   Angle=180
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196131"   Angle=90
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196162"   Angle=-90
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196173"   Angle=180
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196965"   Angle=180
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:197206"   Angle=180
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:197221"   Angle=180
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196361"   Angle=-90
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196395"   Angle=90
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196451"   Angle=180
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196772"   Angle=180
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196591"   Angle=-90
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196859"   Angle=180
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196978"   Angle=-90
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197017"   Angle=180
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197162"   Angle=-90
+   Frame="M_Concrete-Rectangular Beam:IEDM - B5 - 250 * 700:197086"   Angle=-90
+   Frame="M_Concrete-Rectangular Beam:IEDM - B5 - 250 * 700:197125"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:192800"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:192968"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194087"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194089"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194303"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194336"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:193440"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:194093"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:194416"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3 - 300*500:193060"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3 - 300*500:194091"   Angle=90
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1' - 120 * 700:197252"   Angle=90
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1' - 120 * 700:197438"   Angle=-90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193550"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193584"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193617"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194097"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194099"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194101"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2' - 250 * 400:194470"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2' - 250 * 400:194498"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:193497"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194011"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194062"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194095"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194103"   Angle=90
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194105"   Angle=90
+ 
+TABLE:  "FRAME OUTPUT STATION ASSIGNMENTS"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196258"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196271"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196347"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196527"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196681"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196053"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196064"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196096"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196131"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196162"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196173"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196965"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:197206"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:197221"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196361"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196395"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196451"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196772"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:197192"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196591"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196859"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196978"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197017"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197143"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197162"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197176"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B5 - 250 * 700:197086"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B5 - 250 * 700:197125"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:192800"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:192968"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194087"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194089"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194303"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194336"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:193440"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:194093"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:194416"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3 - 300*500:193060"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3 - 300*500:194091"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1' - 120 * 700:197252"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1' - 120 * 700:197438"   StationType=MaxStaSpcg   MaxStaSpcg=500   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193550"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193584"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193617"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194097"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194099"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194101"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2' - 250 * 400:194470"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2' - 250 * 400:194498"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:193497"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194011"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194062"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194095"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194103"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194105"   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+ 
+TABLE:  "FRAME SECTION ASSIGNMENTS"
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196258"   AutoSelect=N.A.   AnalSect="IEDM - B2 - 250* 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196271"   AutoSelect=N.A.   AnalSect="IEDM - B2 - 250* 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196347"   AutoSelect=N.A.   AnalSect="IEDM - B2 - 250* 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196527"   AutoSelect=N.A.   AnalSect=W44X335   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B2 - 250* 700:196681"   AutoSelect=N.A.   AnalSect="IEDM - B2 - 250* 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196053"   AutoSelect=N.A.   AnalSect="IEDM - B1 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196064"   AutoSelect=N.A.   AnalSect="IEDM - B1 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196096"   AutoSelect=N.A.   AnalSect="IEDM - B1 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196131"   AutoSelect=N.A.   AnalSect=W44X335   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196162"   AutoSelect=N.A.   AnalSect="IEDM - B1 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196173"   AutoSelect=N.A.   AnalSect="IEDM - B1 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:196965"   AutoSelect=N.A.   AnalSect=W44X335   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:197206"   AutoSelect=N.A.   AnalSect="IEDM - B1 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1 - 250 * 700:197221"   AutoSelect=N.A.   AnalSect="IEDM - B1 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196361"   AutoSelect=N.A.   AnalSect="IEDM - B3 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196395"   AutoSelect=N.A.   AnalSect="IEDM - B3 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196451"   AutoSelect=N.A.   AnalSect="IEDM - B3 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:196772"   AutoSelect=N.A.   AnalSect="IEDM - B3 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B3 - 250 * 700:197192"   AutoSelect=N.A.   AnalSect="IEDM - B3 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196591"   AutoSelect=N.A.   AnalSect=W44X335   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196859"   AutoSelect=N.A.   AnalSect="IEDM - B4 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:196978"   AutoSelect=N.A.   AnalSect=W44X335   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197017"   AutoSelect=N.A.   AnalSect="IEDM - B4 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197143"   AutoSelect=N.A.   AnalSect=W44X335   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197162"   AutoSelect=N.A.   AnalSect=W44X335   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B4 - 250 * 700:197176"   AutoSelect=N.A.   AnalSect="IEDM - B4 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B5 - 250 * 700:197086"   AutoSelect=N.A.   AnalSect="IEDM - B5 - 250 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B5 - 250 * 700:197125"   AutoSelect=N.A.   AnalSect=W44X335   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:192800"   AutoSelect=N.A.   AnalSect="IEDM - C1 - 300*300"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:192968"   AutoSelect=N.A.   AnalSect="IEDM - C1 - 300*300"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194087"   AutoSelect=N.A.   AnalSect="IEDM - C1 - 300*300"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194089"   AutoSelect=N.A.   AnalSect="IEDM - C1 - 300*300"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194303"   AutoSelect=N.A.   AnalSect="IEDM - C1 - 300*300"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1 - 300*300:194336"   AutoSelect=N.A.   AnalSect="IEDM - C1 - 300*300"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:193440"   AutoSelect=N.A.   AnalSect="IEDM - C2 - 300*400"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:194093"   AutoSelect=N.A.   AnalSect="IEDM - C2 - 300*400"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2 - 300*400:194416"   AutoSelect=N.A.   AnalSect="IEDM - C2 - 300*400"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3 - 300*500:193060"   AutoSelect=N.A.   AnalSect="IEDM - C3 - 300*500"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3 - 300*500:194091"   AutoSelect=N.A.   AnalSect="IEDM - C3 - 300*500"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1' - 120 * 700:197252"   AutoSelect=N.A.   AnalSect="IEDM - B1' - 120 * 700"   MatProp=Default
+   Frame="M_Concrete-Rectangular Beam:IEDM - B1' - 120 * 700:197438"   AutoSelect=N.A.   AnalSect="IEDM - B1' - 120 * 700-Concrete - Cast-in-Place Concrete - 28 MPa"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193550"   AutoSelect=N.A.   AnalSect="IEDM - C1' - 250 * 250"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193584"   AutoSelect=N.A.   AnalSect="IEDM - C1' - 250 * 250"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:193617"   AutoSelect=N.A.   AnalSect="IEDM - C1' - 250 * 250-Concrete - Cast-in-Place Concrete"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194097"   AutoSelect=N.A.   AnalSect="IEDM - C1' - 250 * 250"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194099"   AutoSelect=N.A.   AnalSect="IEDM - C1' - 250 * 250"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C1' - 250 * 250:194101"   AutoSelect=N.A.   AnalSect="IEDM - C1' - 250 * 250"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2' - 250 * 400:194470"   AutoSelect=N.A.   AnalSect="IEDM - C2' - 250 * 400"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C2' - 250 * 400:194498"   AutoSelect=N.A.   AnalSect="IEDM - C2' - 250 * 400"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:193497"   AutoSelect=N.A.   AnalSect="IEDM - C3' - 250 * 500"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194011"   AutoSelect=N.A.   AnalSect="IEDM - C3' - 250 * 500"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194062"   AutoSelect=N.A.   AnalSect="IEDM - C3' - 250 * 500"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194095"   AutoSelect=N.A.   AnalSect="IEDM - C3' - 250 * 500"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194103"   AutoSelect=N.A.   AnalSect="IEDM - C3' - 250 * 500"   MatProp=Default
+   Frame="M_Concrete-Rectangular-Column:IEDM - C3' - 250 * 500:194105"   AutoSelect=N.A.   AnalSect="IEDM - C3' - 250 * 500"   MatProp=Default
+ 
+TABLE:  "FRAME SECTION PROPERTIES 01 - GENERAL"
+   SectionName="IEDM - B1' - 120 * 700"   Material="Concrete - Cast-in-Place Concrete"   Shape=Rectangular   t3=120   t2=580   Area=69600   TorsConst=290541049.301763   I33=83520000   I22=1951120000   I23=0   AS2=58000   AS3=58000 _
+        S33=1392000   S22=6728000   Z33=2088000   Z22=10092000   R33=34.6410161513775   R22=167.431578064991   Color=Red   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName="IEDM - B1' - 120 * 700-Concrete - Cast-in-Place Concrete - 28 MPa"   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   Shape=Rectangular   t3=120   t2=580   Area=69600   TorsConst=290541049.301763   I33=83520000 _
+        I22=1951120000   I23=0   AS2=58000   AS3=58000   S33=1392000   S22=6728000   Z33=2088000   Z22=10092000   R33=34.6410161513775   R22=167.431578064991   Color=Magenta   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1 _
+        I3Mod=1   MMod=1   WMod=1
+   SectionName="IEDM - B1 - 250 * 700"   Material="Concrete - Cast-in-Place Concrete"   Shape=Rectangular   t3=250   t2=700   Area=175000   TorsConst=2826632989.97054   I33=911458333.333333   I22=7145833333.33333   I23=0 _
+        AS2=145833.333333333   AS3=145833.333333333   S33=7291666.66666667   S22=20416666.6666667   Z33=10937500   Z22=30625000   R33=72.1687836487032   R22=202.072594216369   Color=Magenta   FromFile=No   AMod=1   A2Mod=1   A3Mod=1 _
+        JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName="IEDM - B2 - 250* 700"   Material="Concrete - Cast-in-Place Concrete"   Shape=Rectangular   t3=250   t2=700   Area=175000   TorsConst=2826632989.97054   I33=911458333.333333   I22=7145833333.33333   I23=0 _
+        AS2=145833.333333333   AS3=145833.333333333   S33=7291666.66666667   S22=20416666.6666667   Z33=10937500   Z22=30625000   R33=72.1687836487032   R22=202.072594216369   Color=Gray8Dark   FromFile=No   AMod=1   A2Mod=1   A3Mod=1 _
+        JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName="IEDM - B3 - 250 * 700"   Material="Concrete - Cast-in-Place Concrete"   Shape=Rectangular   t3=250   t2=700   Area=175000   TorsConst=2826632989.97054   I33=911458333.333333   I22=7145833333.33333   I23=0 _
+        AS2=145833.333333333   AS3=145833.333333333   S33=7291666.66666667   S22=20416666.6666667   Z33=10937500   Z22=30625000   R33=72.1687836487032   R22=202.072594216369   Color=Blue   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1 _
+        I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName="IEDM - B4 - 250 * 700"   Material="Concrete - Cast-in-Place Concrete"   Shape=Rectangular   t3=250   t2=700   Area=175000   TorsConst=2826632989.97054   I33=911458333.333333   I22=7145833333.33333   I23=0 _
+        AS2=145833.333333333   AS3=145833.333333333   S33=7291666.66666667   S22=20416666.6666667   Z33=10937500   Z22=30625000   R33=72.1687836487032   R22=202.072594216369   Color=Green   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1 _
+        I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName="IEDM - B5 - 250 * 700"   Material="Concrete - Cast-in-Place Concrete"   Shape=Rectangular   t3=250   t2=700   Area=175000   TorsConst=2826632989.97054   I33=911458333.333333   I22=7145833333.33333   I23=0 _
+        AS2=145833.333333333   AS3=145833.333333333   S33=7291666.66666667   S22=20416666.6666667   Z33=10937500   Z22=30625000   R33=72.1687836487032   R22=202.072594216369   Color=Cyan   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1 _
+        I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName="IEDM - C1' - 250 * 250"   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   Shape=Rectangular   t3=250   t2=250   Area=62500   TorsConst=550130208.333333   I33=325520833.333333   I22=325520833.333333   I23=0 _
+        AS2=52083.3333333333   AS3=52083.3333333333   S33=2604166.66666667   S22=2604166.66666667   Z33=3906250   Z22=3906250   R33=72.1687836487032   R22=72.1687836487032   Color=Green   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1 _
+        I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName="IEDM - C1' - 250 * 250-Concrete - Cast-in-Place Concrete"   Material="Concrete - Cast-in-Place Concrete"   Shape=Rectangular   t3=250   t2=250   Area=62500   TorsConst=550130208.333333   I33=325520833.333333 _
+        I22=325520833.333333   I23=0   AS2=52083.3333333333   AS3=52083.3333333333   S33=2604166.66666667   S22=2604166.66666667   Z33=3906250   Z22=3906250   R33=72.1687836487032   R22=72.1687836487032   Color=Cyan   FromFile=No   AMod=1 _
+        A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName="IEDM - C1 - 300*300"   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   Shape=Rectangular   t3=300   t2=300   Area=90000   TorsConst=1140750000   I33=675000000   I22=675000000   I23=0   AS2=75000   AS3=75000 _
+        S33=4500000   S22=4500000   Z33=6750000   Z22=6750000   R33=86.6025403784439   R22=86.6025403784439   Color=Red   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName="IEDM - C2' - 250 * 400"   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   Shape=Rectangular   t3=400   t2=250   Area=100000   TorsConst=1273451646.16903   I33=1333333333.33333   I22=520833333.333333   I23=0 _
+        AS2=83333.3333333333   AS3=83333.3333333333   S33=6666666.66666667   S22=4166666.66666667   Z33=10000000   Z22=6250000   R33=115.470053837925   R22=72.1687836487032   Color=Red   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1 _
+        I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName="IEDM - C2 - 300*400"   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   Shape=Rectangular   t3=400   t2=300   Area=120000   TorsConst=1943850585.9375   I33=1600000000   I22=900000000   I23=0   AS2=100000   AS3=100000 _
+        S33=8000000   S22=6000000   Z33=12000000   Z22=9000000   R33=115.470053837925   R22=86.6025403784439   Color=Gray8Dark   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName="IEDM - C3' - 250 * 500"   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   Shape=Rectangular   t3=250   t2=500   Area=125000   TorsConst=1788126627.60417   I33=651041666.666667   I22=2604166666.66667   I23=0 _
+        AS2=104166.666666667   AS3=104166.666666667   S33=5208333.33333333   S22=10416666.6666667   Z33=7812500   Z22=15625000   R33=72.1687836487032   R22=144.337567297406   Color=Blue   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1 _
+        I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName="IEDM - C3 - 300*500"   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   Shape=Rectangular   t3=300   t2=500   Area=150000   TorsConst=2817370800   I33=1125000000   I22=3125000000   I23=0   AS2=125000   AS3=125000 _
+        S33=7500000   S22=12500000   Z33=11250000   Z22=18750000   R33=86.6025403784439   R22=144.337567297406   Color=Yellow   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1
+   SectionName=W44X335   Material="Default Material"   Shape="I/Wide Flange"   t3=1117.6   t2=403.859990310669   tf=44.9579995155334   tw=26.1619992733002   t2b=403.859990310669   tfb=44.9579995155334   Area=63548.26 _
+        TorsConst=31092486.2220825   I33=12944797336.16   I22=499477710.72   I23=0   AS2=29238.6510031128   AS3=30261.2290124512   S33=23165349.5636364   S22=2473519.15368382   Z33=26547043.68   Z22=3867347.104   R33=451.331656278829 _
+        R22=88.6556104196641   Color=Yellow   FromFile=Yes   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1   SectInFile=W44X335   FileName="C:\Program Files\Computers and Structures\SAP2000 18\AISC14.pro"
+ 
+TABLE:  "FRAME SECTION PROPERTIES 13 - TIME DEPENDENT"
+   SectionName="IEDM - B1' - 120 * 700"   TypeSize=Auto   AutoSFSize=0
+   SectionName="IEDM - B1' - 120 * 700-Concrete - Cast-in-Place Concrete - 28 MPa"   TypeSize=Auto   AutoSFSize=0
+   SectionName="IEDM - B1 - 250 * 700"   TypeSize=Auto   AutoSFSize=0
+   SectionName="IEDM - B2 - 250* 700"   TypeSize=Auto   AutoSFSize=0
+   SectionName="IEDM - B3 - 250 * 700"   TypeSize=Auto   AutoSFSize=0
+   SectionName="IEDM - B4 - 250 * 700"   TypeSize=Auto   AutoSFSize=0
+   SectionName="IEDM - B5 - 250 * 700"   TypeSize=Auto   AutoSFSize=0
+   SectionName="IEDM - C1' - 250 * 250"   TypeSize=Auto   AutoSFSize=0
+   SectionName="IEDM - C1' - 250 * 250-Concrete - Cast-in-Place Concrete"   TypeSize=Auto   AutoSFSize=0
+   SectionName="IEDM - C1 - 300*300"   TypeSize=Auto   AutoSFSize=0
+   SectionName="IEDM - C2' - 250 * 400"   TypeSize=Auto   AutoSFSize=0
+   SectionName="IEDM - C2 - 300*400"   TypeSize=Auto   AutoSFSize=0
+   SectionName="IEDM - C3' - 250 * 500"   TypeSize=Auto   AutoSFSize=0
+   SectionName="IEDM - C3 - 300*500"   TypeSize=Auto   AutoSFSize=0
+   SectionName=W44X335   TypeSize=Auto   AutoSFSize=0
+ 
+TABLE:  "FUNCTION - POWER SPECTRAL DENSITY - USER"
+   Name=UNIFPSD   Frequency=0   Value=1
+   Name=UNIFPSD   Frequency=1   Value=1
+ 
+TABLE:  "FUNCTION - RESPONSE SPECTRUM - USER"
+   Name=UNIFRS   Period=0   Accel=1   FuncDamp=0.05
+   Name=UNIFRS   Period=1   Accel=1
+ 
+TABLE:  "FUNCTION - STEADY STATE - USER"
+   Name=UNIFSS   Frequency=0   Value=1
+   Name=UNIFSS   Frequency=1   Value=1
+ 
+TABLE:  "FUNCTION - TIME HISTORY - USER"
+   Name=RAMPTH   Time=0   Value=0
+   Name=RAMPTH   Time=1   Value=1
+   Name=RAMPTH   Time=4   Value=1
+   Name=UNIFTH   Time=0   Value=1
+   Name=UNIFTH   Time=1   Value=1
+ 
+TABLE:  "GROUPS 1 - DEFINITIONS"
+   GroupName=ALL   Selection=Yes   SectionCut=Yes   Steel=Yes   Concrete=Yes   Aluminum=Yes   ColdFormed=Yes   Stage=Yes   Bridge=Yes   AutoSeismic=No   AutoWind=No   SelDesSteel=No   SelDesAlum=No   SelDesCold=No   MassWeight=Yes   Color=Red
+ 
+TABLE:  "JOINT COORDINATES"
+   Joint=1   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1916.1797   Y=16990.896   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=2   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1916.1797   Y=16990.896   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=3   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1916.1797   Y=13821.928   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=4   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1916.1797   Y=13821.928   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=5   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7856.1797   Y=13821.928   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=6   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7856.1797   Y=13821.928   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=7   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1916.1797   Y=8751.9285   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=8   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1916.1797   Y=8751.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=9   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4416.1797   Y=8826.9285   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=10   CoordSys=GLOBAL   CoordType=Cartesian   XorR=4416.1797   Y=8826.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=11   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5991.1797   Y=4956.9285   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=12   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5991.1797   Y=4956.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=13   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5991.1797   Y=2456.9285   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=14   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5991.1797   Y=2456.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=15   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1891.1797   Y=2456.9285   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=16   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1891.1797   Y=2456.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=17   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7856.1797   Y=8826.9285   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=18   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7856.1797   Y=8826.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=19   CoordSys=GLOBAL   CoordType=Cartesian   XorR=9038.8916   Y=2456.9285   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=20   CoordSys=GLOBAL   CoordType=Cartesian   XorR=9038.8916   Y=2456.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=21   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19056.18   Y=16990.896   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=22   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19056.18   Y=16990.896   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=23   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19056.18   Y=13821.928   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=24   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19056.18   Y=13821.928   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=25   CoordSys=GLOBAL   CoordType=Cartesian   XorR=13116.18   Y=13821.928   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=26   CoordSys=GLOBAL   CoordType=Cartesian   XorR=13116.18   Y=13821.928   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=27   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19056.18   Y=8751.9285   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=28   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19056.18   Y=8751.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=29   CoordSys=GLOBAL   CoordType=Cartesian   XorR=16436.18   Y=8826.9285   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=30   CoordSys=GLOBAL   CoordType=Cartesian   XorR=16436.18   Y=8826.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=31   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14981.18   Y=4956.9285   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=32   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14981.18   Y=4956.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=33   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14981.18   Y=2456.9285   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=34   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14981.18   Y=2456.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=35   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19081.18   Y=2456.9285   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=36   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19081.18   Y=2456.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=37   CoordSys=GLOBAL   CoordType=Cartesian   XorR=13116.18   Y=8826.9285   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=38   CoordSys=GLOBAL   CoordType=Cartesian   XorR=13116.18   Y=8826.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=39   CoordSys=GLOBAL   CoordType=Cartesian   XorR=11933.468   Y=2456.9285   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=40   CoordSys=GLOBAL   CoordType=Cartesian   XorR=11933.468   Y=2456.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=41   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=19960.896   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=42   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=19960.896   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=43   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=16990.896   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=44   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=16990.896   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=45   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=13871.928   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=46   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=13871.928   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=47   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=8751.9285   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=48   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=8751.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=49   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=5031.9285   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=50   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=5031.9285   Z=3730   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=51   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5866.1797   Y=19984.863   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=52   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5859.820178   Y=19984.863   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=53   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5984.8202   Y=19859.863   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=54   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5984.8202   Y=16859.863   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=55   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19081.18   Y=13971.928   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=56   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19081.18   Y=16840.8955   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=57   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19106.18   Y=2580.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=58   CoordSys=GLOBAL   CoordType=Cartesian   XorR=15106.18   Y=2580.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=59   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1766.1797   Y=2455.8959   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=60   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6066.1797   Y=2455.8959   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=61   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1891.1797   Y=13971.928   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=62   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1891.1797   Y=16840.8955   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=63   CoordSys=GLOBAL   CoordType=Cartesian   XorR=11808.468   Y=4830.8959   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=64   CoordSys=GLOBAL   CoordType=Cartesian   XorR=11808.468   Y=2581.9285   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=65   CoordSys=GLOBAL   CoordType=Cartesian   XorR=9163.8916   Y=2581.9285   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=66   CoordSys=GLOBAL   CoordType=Cartesian   XorR=9163.8916   Y=5133.2888   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=67   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10611.18   Y=13795.896   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=68   CoordSys=GLOBAL   CoordType=Cartesian   XorR=13129.8205   Y=13795.896   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=69   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2066.1797   Y=16984.863   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=70   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5859.8202   Y=16984.863   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=71   CoordSys=GLOBAL   CoordType=Cartesian   XorR=18906.18   Y=16984.863   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=72   CoordSys=GLOBAL   CoordType=Cartesian   XorR=15106.18   Y=16984.863   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=73   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=17140.896   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=74   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=19810.896   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=75   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7586.1797   Y=13920.896   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=76   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.1797   Y=13920.896   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=77   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7586.1797   Y=8700.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=78   CoordSys=GLOBAL   CoordType=Cartesian   XorR=13386.1797   Y=8700.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=79   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=13670.896   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=80   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=8951.9285   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=81   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19081.18   Y=8951.9285   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=82   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19081.18   Y=13670.896   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=83   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19081.18   Y=2581.9285   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=84   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19081.18   Y=8551.9285   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=85   CoordSys=GLOBAL   CoordType=Cartesian   XorR=15106.18   Y=2480.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=86   CoordSys=GLOBAL   CoordType=Cartesian   XorR=15106.18   Y=4830.8958   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=87   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19081.18   Y=8700.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=88   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14993.066   Y=5103.7443   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=89   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14993.066   Y=8700.896   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=90   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10611.18   Y=4955.8959   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=91   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14906.18   Y=4955.8959   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=92   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10361.18   Y=5080.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=93   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6066.18   Y=5080.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=94   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5866.1797   Y=8700.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=95   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5866.1797   Y=2480.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=96   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1766.1797   Y=8700.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=97   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1891.1797   Y=8551.9285   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=98   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1891.1797   Y=2581.9285   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=99   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1891.1797   Y=13671.928   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=100   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1891.1797   Y=8951.928   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=101   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=5231.9285   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=102   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.18   Y=8550.896   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=103   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14987.539   Y=17109.863   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=104   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14987.539   Y=19859.863   Z=3380   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=105   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14916.18   Y=2970.8959   Z=4140   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=106   CoordSys=GLOBAL   CoordType=Cartesian   XorR=11933.4681   Y=2970.8959   Z=4140   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=107   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6066.1797   Y=3090.8959   Z=4140   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=108   CoordSys=GLOBAL   CoordType=Cartesian   XorR=9038.8916   Y=3090.8959   Z=4140   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=109   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2066.1798   Y=16959.863   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=110   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5859.8202   Y=16959.863   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=111   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5859.8202   Y=16959.863   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=112   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2066.1798   Y=16959.863   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=113   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6009.8202   Y=16807.4705   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=114   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6009.8202   Y=19859.8635   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=115   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6009.8202   Y=19859.8635   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=116   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6009.8202   Y=16807.4705   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=117   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6166.1797   Y=19959.863   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=118   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10336.1797   Y=19959.863   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=119   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10336.1797   Y=19959.863   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=120   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6166.1797   Y=19959.863   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=121   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10636.18   Y=19959.863   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=122   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14806.18   Y=19959.863   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=123   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14806.18   Y=19959.863   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=124   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10636.18   Y=19959.863   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=125   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14962.539   Y=19859.863   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=126   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14962.539   Y=16809.863   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=127   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14962.539   Y=16809.863   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=128   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14962.539   Y=19859.863   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=129   CoordSys=GLOBAL   CoordType=Cartesian   XorR=15112.5388   Y=16959.863   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=130   CoordSys=GLOBAL   CoordType=Cartesian   XorR=18906.1792   Y=16959.863   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=131   CoordSys=GLOBAL   CoordType=Cartesian   XorR=18906.1792   Y=16959.863   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=132   CoordSys=GLOBAL   CoordType=Cartesian   XorR=15112.5388   Y=16959.863   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=133   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19106.18   Y=13971.9283   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=134   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19106.18   Y=16840.8957   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=135   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19106.18   Y=16840.8957   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=136   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19106.18   Y=13971.9283   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=137   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19106.18   Y=8951.9283   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=138   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19106.18   Y=13670.8957   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=139   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19106.18   Y=13670.8957   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=140   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19106.18   Y=8951.9283   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=141   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19106.18   Y=2330.8959   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=142   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19106.18   Y=8551.9285   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=143   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19106.18   Y=8551.9285   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=144   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19106.18   Y=2330.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=145   CoordSys=GLOBAL   CoordType=Cartesian   XorR=18956.18   Y=2480.8959   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=146   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14856.18   Y=2480.8959   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=147   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14856.18   Y=2480.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=148   CoordSys=GLOBAL   CoordType=Cartesian   XorR=18956.18   Y=2480.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=149   CoordSys=GLOBAL   CoordType=Cartesian   XorR=18906.18   Y=8850.8959   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=150   CoordSys=GLOBAL   CoordType=Cartesian   XorR=13386.18   Y=8850.8959   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=151   CoordSys=GLOBAL   CoordType=Cartesian   XorR=13386.18   Y=8850.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=152   CoordSys=GLOBAL   CoordType=Cartesian   XorR=18906.18   Y=8850.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=153   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10611.18   Y=8850.89590003825   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=154   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10611.18   Y=8850.89590003825   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=155   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10361.1797   Y=8850.89589996175   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=156   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7586.1797   Y=8850.89590003825   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=157   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7586.1797   Y=8850.89590003825   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=158   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10361.1797   Y=8850.89589996175   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=159   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2066.1797   Y=8850.8959   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=160   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2066.1797   Y=8850.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=161   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1916.1797   Y=2330.8959   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=162   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1916.1797   Y=8551.9285   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=163   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1916.1797   Y=8551.9285   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=164   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1916.1797   Y=2330.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=165   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6166.1797   Y=2480.8959   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=166   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2066.1797   Y=2480.8959   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=167   CoordSys=GLOBAL   CoordType=Cartesian   XorR=2066.1797   Y=2480.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=168   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6166.1797   Y=2480.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=169   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6016.1797   Y=2630.8959   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=170   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6016.1797   Y=5130.8959   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=171   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6016.1797   Y=5130.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=172   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6016.1797   Y=2630.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=173   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6016.1797   Y=8700.8959   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=174   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6016.1797   Y=8700.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=175   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10361.1797   Y=4980.8959   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=176   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6166.1797   Y=4980.8959   Z=450   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=177   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6166.1797   Y=4980.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=178   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10361.1797   Y=4980.8959   Z=3030   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=179   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1766.1797   Y=17109.863   Z=3950   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=180   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1766.1797   Y=8700.8952   Z=3950   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=181   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7586.1797   Y=8700.8952   Z=3950   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=182   CoordSys=GLOBAL   CoordType=Cartesian   XorR=7586.1797   Y=13920.8955   Z=3950   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=183   CoordSys=GLOBAL   CoordType=Cartesian   XorR=13386.1797   Y=13920.8955   Z=3950   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=184   CoordSys=GLOBAL   CoordType=Cartesian   XorR=13386.1797   Y=8700.8952   Z=3950   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=185   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19206.1797   Y=8700.8952   Z=3950   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=186   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19206.1797   Y=17109.863   Z=3950   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=187   CoordSys=GLOBAL   CoordType=Cartesian   XorR=15112.5387   Y=17109.863   Z=3950   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=188   CoordSys=GLOBAL   CoordType=Cartesian   XorR=15112.5387   Y=20109.863   Z=3950   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=189   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5859.8201   Y=20109.863   Z=3950   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=190   CoordSys=GLOBAL   CoordType=Cartesian   XorR=5859.8201   Y=17109.863   Z=3950   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=191   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1766.1797   Y=2330.8957   Z=3880   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=192   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1766.17968167848   Y=8700.89562190682   Z=3880   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=193   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6066.1797798524   Y=8700.89584152821   Z=3880   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=194   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6066.17963032536   Y=2330.89567097131   Z=3880   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=195   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6066.1797   Y=4830.8959   Z=3850   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=196   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6066.17976987929   Y=8700.89593774358   Z=3850   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=197   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.1797808007   Y=8700.8959413723   Z=3850   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=198   CoordSys=GLOBAL   CoordType=Cartesian   XorR=10486.179786158   Y=4830.89596950328   Z=3850   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=199   CoordSys=GLOBAL   CoordType=Cartesian   XorR=6066.1797   Y=2331.9284   Z=3850   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=200   CoordSys=GLOBAL   CoordType=Cartesian   XorR=9288.89163352493   Y=4830.89595148967   Z=3850   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=201   CoordSys=GLOBAL   CoordType=Cartesian   XorR=9288.89161020322   Y=2331.92835039081   Z=3850   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=202   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14906.18   Y=2330.8957   Z=3880   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=203   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14906.1799816785   Y=8700.89562190682   Z=3880   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=204   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19206.1800798524   Y=8700.89584152821   Z=3880   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=205   CoordSys=GLOBAL   CoordType=Cartesian   XorR=19206.1799303254   Y=2330.89567097131   Z=3880   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=206   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14906.1800808007   Y=8700.8959413723   Z=3850   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=207   CoordSys=GLOBAL   CoordType=Cartesian   XorR=14906.180086158   Y=4830.89596950328   Z=3850   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=208   CoordSys=GLOBAL   CoordType=Cartesian   XorR=11683.468   Y=2331.9284   Z=3850   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=209   CoordSys=GLOBAL   CoordType=Cartesian   XorR=11683.4679892803   Y=4830.89597947177   Z=3850   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=210   CoordSys=GLOBAL   CoordType=Cartesian   XorR=15106.1799264747   Y=4830.89591951288   Z=3850   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+   Joint=211   CoordSys=GLOBAL   CoordType=Cartesian   XorR=15106.1800179587   Y=2331.92839900823   Z=3850   SpecialJt=No   GUID=65233816-b8ab-49cb-896c-91fcb293f6d2
+ 
+TABLE:  "JOINT PATTERN DEFINITIONS"
+   Pattern=Default
+ 
+TABLE:  "LOAD CASE DEFINITIONS"
+   Case=DEAD   Type=LinStatic   InitialCond=Zero   DesTypeOpt="Prog Det"   DesignType=DEAD   DesActOpt="Prog Det"   DesignAct=Non-Composite   AutoType=None   RunCase=Yes
+   Case=MODAL   Type=LinModal   InitialCond=Zero   DesTypeOpt="Prog Det"   DesignType=OTHER   DesActOpt="Prog Det"   DesignAct=Other   AutoType=None   RunCase=Yes
+ 
+TABLE:  "LOAD PATTERN DEFINITIONS"
+   LoadPat=DEAD   DesignType=DEAD   SelfWtMult=1   GUID=69fc3d4b-35eb-46c8-b23b-1365b31e69bd
+ 
+TABLE:  "MASS SOURCE"
+   MassSource=MSSSRC1   Elements=Yes   Masses=Yes   Loads=No   IsDefault=Yes
+ 
+TABLE:  "MATERIAL PROPERTIES 01 - GENERAL"
+   Material=4000Psi   Type=Concrete   SymType=Isotropic   TempDepend=No   Color=Blue   Notes="Customary f'c 4000 psi 4/25/2016 12:20:17 PM"
+   Material=A615Gr60   Type=Rebar   SymType=Uniaxial   TempDepend=No   Color=Magenta   Notes="ASTM A615 Grade 60 4/25/2016 12:20:37 PM"
+   Material=A992Fy50   Type=Steel   SymType=Isotropic   TempDepend=No   Color=Gray8Dark   Notes="ASTM A992 Grade 50 4/25/2016 12:20:17 PM"
+   Material="Concrete - Cast-in-Place Concrete"   Type=Other   SymType=Isotropic   TempDepend=No   Color=Gray8Dark
+   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   Type=Other   SymType=Isotropic   TempDepend=No   Color=Yellow
+   Material="Default Floor"   Type=Other   SymType=Isotropic   TempDepend=No   Color=Green
+   Material="Default Material"   Type=Other   SymType=Isotropic   TempDepend=No   Color=Blue
+ 
+TABLE:  "MATERIAL PROPERTIES 02 - BASIC MECHANICAL PROPERTIES"
+   Material=4000Psi   UnitWeight=2.35631216161854E-08   UnitMass=2.40276960558926E-12   E1=24.8555780600518   G12=10.3564908583549   U12=0.2   A1=9.89999952793124E-06
+   Material=A615Gr60   UnitWeight=7.69728639422648E-08   UnitMass=7.84904737995992E-12   E1=199.947978795958   A1=1.16999994421006E-05
+   Material=A992Fy50   UnitWeight=7.69728639422648E-08   UnitMass=7.84904737995992E-12   E1=199.947978795958   G12=76.903068767676   U12=0.3   A1=1.16999994421006E-05
+   Material="Concrete - Cast-in-Place Concrete"   UnitWeight=2.35631209774485E-08   UnitMass=2.4027696E-12   E1=24.8211284022568   G12=10.3421368342737   U12=0.2   A1=9.89999952793124E-06
+   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   UnitWeight=2.35631209774485E-08   UnitMass=2.4027696E-12   E1=24.8211284022568   G12=10.3421368342737   U12=0.2   A1=9.89999952793124E-06
+   Material="Default Floor"   UnitWeight=2.35631209774485E-08   UnitMass=2.4027696E-12   E1=24.8211284022568   G12=10.3421368342737   U12=0.2   A1=9.89999952793124E-06
+   Material="Default Material"   UnitWeight=2.35631209774485E-08   UnitMass=2.4027696E-12   E1=24.8211284022568   G12=10.3421368342737   U12=0.2   A1=9.89999952793124E-06
+ 
+TABLE:  "MATERIAL PROPERTIES 03A - STEEL DATA"
+   Material=A992Fy50   Fy=0.344737894475789   Fu=0.448159262818526   EffFy=0.379211683923368   EffFu=0.492975189100378   SSCurveOpt=Simple   SSHysType=Kinematic   SHard=0.015   SMax=0.11   SRup=0.17   FinalSlope=-0.1
+ 
+TABLE:  "MATERIAL PROPERTIES 03B - CONCRETE DATA"
+   Material=4000Psi   Fc=0.0275790315580631   LtWtConc=No   SSCurveOpt=Mander   SSHysType=Takeda   SFc=0.00221914   SCap=0.005   FinalSlope=-0.1   FAngle=0   DAngle=0
+ 
+TABLE:  "MATERIAL PROPERTIES 03E - REBAR DATA"
+   Material=A615Gr60   Fy=0.413685473370947   Fu=0.62052821005642   EffFy=0.455054020708041   EffFu=0.682581031062062   SSCurveOpt=Simple   SSHysType=Kinematic   SHard=0.01   SCap=0.09   FinalSlope=-0.1   UseCTDef=No
+ 
+TABLE:  "MATERIAL PROPERTIES 03G - OTHER DATA"
+   Material="Concrete - Cast-in-Place Concrete"   SSHysType=Takeda   FAngle=0   DAngle=0
+   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   SSHysType=Takeda   FAngle=0   DAngle=0
+   Material="Default Floor"   SSHysType=Takeda   FAngle=0   DAngle=0
+   Material="Default Material"   SSHysType=Takeda   FAngle=0   DAngle=0
+ 
+TABLE:  "MATERIAL PROPERTIES 04 - USER STRESS-STRAIN CURVES"
+   Material="Concrete - Cast-in-Place Concrete"   Strain=-0.0402882569959663   Stress=-1
+   Material="Concrete - Cast-in-Place Concrete"   Strain=0   Stress=0   PointID=A
+   Material="Concrete - Cast-in-Place Concrete"   Strain=0.0402882569959663   Stress=1
+   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   Strain=-0.0402882569959663   Stress=-1
+   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   Strain=0   Stress=0   PointID=A
+   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   Strain=0.0402882569959663   Stress=1
+   Material="Default Floor"   Strain=-0.0402882569959663   Stress=-1
+   Material="Default Floor"   Strain=0   Stress=0   PointID=A
+   Material="Default Floor"   Strain=0.0402882569959663   Stress=1
+   Material="Default Material"   Strain=-0.0402882569959663   Stress=-1
+   Material="Default Material"   Strain=0   Stress=0   PointID=A
+   Material="Default Material"   Strain=0.0402882569959663   Stress=1
+ 
+TABLE:  "MATERIAL PROPERTIES 06 - DAMPING PARAMETERS"
+   Material=4000Psi   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+   Material=A615Gr60   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+   Material=A992Fy50   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+   Material="Concrete - Cast-in-Place Concrete"   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+   Material="Concrete - Cast-in-Place Concrete - 28 MPa"   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+   Material="Default Floor"   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+   Material="Default Material"   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+ 
+TABLE:  "OPTIONS - COLORS - DISPLAY"
+   DeviceType=Screen   Points=Blue   LinesFrame=Blue   LinesFrmDL=Blue   LinesCable=Green   LinesTendon=Green   SpringLinks=Green   Restraints=Green   Releases=Green   Axes=Cyan   Text=Black   ShadowLines=Gray8Dark   GuideLines=Gray8Dark _
+        Highlight=Red   Selection=10504778   AreaFillBot=Red   AreaFillTop=16744703   AreaFillSd=Red   AreaEdge=DarkRed   SolidF1=Red   SolidF2=Blue   SolidF3=Green   SolidF4=Yellow   SolidF5=White   SolidF6=Cyan   SolidEdge=DarkRed _
+        Floor=Gray4   Background=White   BGLowLeft=White   BGLowRight=White   BGUpRight=White   Darkness=0.5
+   DeviceType=Printer   Points=Gray8Dark   LinesFrame=Black   LinesFrmDL=Gray4   LinesCable=Black   LinesTendon=Black   SpringLinks=Gray8Dark   Restraints=Gray8Dark   Releases=Gray4   Axes=Black   Text=Black   ShadowLines=Gray4 _
+        GuideLines=Gray4   Highlight=Black   Selection=Black   AreaFillBot=Gray4   AreaFillTop=Gray8Dark   AreaFillSd=Gray4   AreaEdge=Black   SolidF1=Gray1Light   SolidF2=Gray2   SolidF3=Gray3   SolidF4=Gray4   SolidF5=Gray5 _
+        SolidF6=Gray6   SolidEdge=Black   Floor=Gray4   Background=White   BGLowLeft=White   BGLowRight=White   BGUpRight=White   Darkness=0.5
+   DeviceType="Color Printer"   Points=Blue   LinesFrame=Blue   LinesFrmDL=Blue   LinesCable=Green   LinesTendon=Green   SpringLinks=Green   Restraints=Green   Releases=Green   Axes=Cyan   Text=Black   ShadowLines=Gray8Dark _
+        GuideLines=Gray8Dark   Highlight=Red   Selection=10504778   AreaFillBot=Red   AreaFillTop=16744703   AreaFillSd=Red   AreaEdge=DarkRed   SolidF1=Red   SolidF2=Blue   SolidF3=Green   SolidF4=Yellow   SolidF5=White   SolidF6=Cyan _
+        SolidEdge=DarkRed   Floor=Gray4   Background=White   BGLowLeft=White   BGLowRight=White   BGUpRight=White   Darkness=0.5
+ 
+TABLE:  "OPTIONS - COLORS - OUTPUT"
+   DeviceType=Screen   Contour1=13107400   Contour2=6553828   Contour3=Red   Contour4=16639   Contour5=Orange   Contour6=43775   Contour7=54527   Contour8=Yellow   Contour9=65408   Contour10=Green   Contour11=8453888   Contour12=Cyan _
+        Contour13=16755200   Contour14=16733440   Contour15=Blue   Transpare=0.5   Ratio1=Cyan   Ratio2=Green   Ratio3=Yellow   Ratio4=Orange   Ratio5=Red   RatioNotD=Gray4   RatioNotC=Red   RatioVal1=0.5   RatioVal2=0.7   RatioVal3=0.9 _
+        RatioVal4=1   DFillPos=Blue   DFillNeg=Red   DFillRPos=Green   DFillRNeg=Green
+   DeviceType=Printer   Contour1=Black   Contour2=3158064   Contour3=4210752   Contour4=5263440   Contour5=6316128   Contour6=7368816   Contour7=Gray8Dark   Contour8=Gray7   Contour9=Gray6   Contour10=Gray5   Contour11=Gray4 _
+        Contour12=Gray3   Contour13=Gray2   Contour14=Gray1Light   Contour15=White   Transpare=0   Ratio1=Gray2   Ratio2=Gray4   Ratio3=Gray8Dark   Ratio4=4210752   Ratio5=Black   RatioNotD=Gray4   RatioNotC=Black   RatioVal1=0.5 _
+        RatioVal2=0.7   RatioVal3=0.9   RatioVal4=1   DFillPos=Gray8Dark   DFillNeg=Gray8Dark   DFillRPos=4210752   DFillRNeg=4210752
+   DeviceType="Color Printer"   Contour1=13107400   Contour2=6553828   Contour3=Red   Contour4=16639   Contour5=Orange   Contour6=43775   Contour7=54527   Contour8=Yellow   Contour9=65408   Contour10=Green   Contour11=8453888 _
+        Contour12=Cyan   Contour13=16755200   Contour14=16733440   Contour15=Blue   Transpare=0   Ratio1=Cyan   Ratio2=Green   Ratio3=Yellow   Ratio4=Orange   Ratio5=Red   RatioNotD=Gray4   RatioNotC=Red   RatioVal1=0.5   RatioVal2=0.7 _
+        RatioVal3=0.9   RatioVal4=1   DFillPos=Blue   DFillNeg=Red   DFillRPos=Green   DFillRNeg=Green
+ 
+TABLE:  "PREFERENCES - ALUMINUM DESIGN - AA-ASD 2000"
+   THDesign=Envelopes   FrameType="Moment Frame"   SRatioLimit=1   MaxIter=1   LatFact=1.33333333333333   UseLatFact=No   Bridge=No
+ 
+TABLE:  "PREFERENCES - COLD FORMED DESIGN - AISI-ASD96"
+   THDesign=Envelopes   FrameType="Braced Frame"   SRatioLimit=1   MaxIter=1   OmegaBS=1.67   OmegaBUS=1.67   OmegaBLTB=1.67   OmegaVS=1.67   OmegaVNS=1.5   OmegaT=1.67   OmegaC=1.8
+ 
+TABLE:  "PREFERENCES - CONCRETE DESIGN - ACI 318-14"
+   THDesign=Envelopes   NumCurves=24   NumPoints=11   MinEccen=Yes   PatLLF=0.75   UFLimit=0.95   SeisCat=D   Rho=1   Sds=0.5   PhiT=0.9   PhiCTied=0.65   PhiCSpiral=0.75   PhiV=0.75   PhiVSeismic=0.6   PhiVJoint=0.85
+ 
+TABLE:  "PREFERENCES - DIMENSIONAL"
+   MergeTol=1   FineGrid=250   Nudge=250   SelectTol=3   SnapTol=12   SLineThick=2   PLineThick=4   MaxFont=8   MinFont=3   AutoZoom=10   ShrinkFact=70   TextFileLen=240
+ 
+TABLE:  "PREFERENCES - STEEL DESIGN - AISC 360-10"
+   THDesign=Envelopes   FrameType=SMF   PatLLF=0.75   SRatioLimit=0.95   MaxIter=1   SDC=D   SeisCode=Yes   SeisLoad=Yes   ImpFactor=1   SystemRho=1   SystemSds=0.5   SystemR=8   SystemCd=5.5   Omega0=3   Provision=LRFD _
+        AMethod="Direct Analysis"   SOMethod="General 2nd Order"   SRMethod="Tau-b Fixed"   NLCoeff=0.002   PhiB=0.9   PhiC=0.9   PhiTY=0.9   PhiTF=0.75   PhiV=0.9   PhiVRolledI=1   PhiVT=0.9   PlugWeld=Yes   HSSWelding=ERW   HSSReduceT=No _
+        CheckDefl=No   DLRat=120   SDLAndLLRat=120   LLRat=360   TotalRat=240   NetRat=240
+ 
+TABLE:  "PROGRAM CONTROL"
+   ProgramName=SAP2000   Version=18.0.1   CurrUnits="KN, mm, C"   SteelCode="AISC 360-10"   ConcCode="ACI 318-14"   AlumCode="AA-ASD 2000"   ColdCode=AISI-ASD96   RegenHinge=Yes
+ 
+TABLE:  "PROJECT INFORMATION"
+   Item="Company Name"
+   Item="Client Name"
+   Item="Project Name"
+   Item="Project Number"
+   Item="Model Name"
+   Item="Model Description"
+   Item="Revision Number"
+   Item="Frame Type"
+   Item=Engineer
+   Item=Checker
+   Item=Supervisor
+   Item="Issue Code"
+   Item="Design Code"
+ 
+TABLE:  "REBAR SIZES"
+   RebarID=#2   Area=32.258   Diameter=6.35
+   RebarID=#3   Area=70.9675996154547   Diameter=9.525
+   RebarID=#4   Area=129.032001922727   Diameter=12.7
+   RebarID=#5   Area=199.999601538181   Diameter=15.875
+   RebarID=#6   Area=283.870398461819   Diameter=19.05
+   RebarID=#7   Area=387.096015381813   Diameter=22.225
+   RebarID=#8   Area=509.676413843632   Diameter=25.4
+   RebarID=#9   Area=645.16   Diameter=28.6512005329132
+   RebarID=#10   Area=819.35318769455   Diameter=32.2579995155334
+   RebarID=#11   Area=1006.44956308365   Diameter=35.8139991521835
+   RebarID=#14   Area=1451.61   Diameter=43.0021989583969
+   RebarID=#18   Area=2580.64   Diameter=57.3277992248535
+   RebarID=10M   Area=100.000002655387   Diameter=11.300000667572
+   RebarID=15M   Area=200.000005310774   Diameter=15.9999999403954
+   RebarID=20M   Area=300.000017579794   Diameter=19.4999997854233
+   RebarID=25M   Area=500.000022890568   Diameter=25.2000016093254
+   RebarID=30M   Area=700.000008974075   Diameter=29.9000008821487
+   RebarID=35M   Area=1000.00004578114   Diameter=35.7000011444092
+   RebarID=45M   Area=1500.00010712624   Diameter=43.7000003576279
+   RebarID=55M   Area=2500.00007599831   Diameter=56.4000033855438
+   RebarID=6d   Area=28.3000004149973   Diameter=6.00000016689301
+   RebarID=8d   Area=50.2999995571375   Diameter=7.99999997019768
+   RebarID=10d   Area=78.5000013634562   Diameter=9.99999977350235
+   RebarID=12d   Area=113.000009249449   Diameter=12.000000333786
+   RebarID=14d   Area=154.000010818839   Diameter=14.0000008940697
+   RebarID=16d   Area=201.000015431643   Diameter=15.9999999403954
+   RebarID=20d   Area=314.000005453825   Diameter=19.9999995470047
+   RebarID=25d   Area=491.000008711815   Diameter=25.0000001907349
+   RebarID=26d   Area=531.000029001236   Diameter=25.9999997138977
+   RebarID=28d   Area=616.000043275356   Diameter=28.0000017881393
+   RebarID=N12   Area=113.000009249449   Diameter=12.000000333786
+   RebarID=N16   Area=201.000015431643   Diameter=15.9999999403954
+   RebarID=N20   Area=314.000005453825   Diameter=19.9999995470047
+   RebarID=N24   Area=452.000036997795   Diameter=24.000000667572
+   RebarID=N28   Area=616.000043275356   Diameter=28.0000017881393
+   RebarID=N32   Area=804.00006172657   Diameter=31.9999998807907
+   RebarID=N36   Area=1020.00001747131   Diameter=36.000001001358
+ 
+END TABLE DATA

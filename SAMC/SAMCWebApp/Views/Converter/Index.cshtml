@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <title> @ViewBag.Title</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="~/Scripts/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="~/Scripts/demo.css" />
+    <link rel="stylesheet" type="text/css" href="~/Scripts/component.css" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script>
+        (function (e, t, n) {
+            var r = e.querySelectorAll("html")[0];
+            r.className = r.className.replace(/(^|\s)no-js(\s|$)/, "$1js$2")
+        })
+            (document, window, 0);</script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="box">
+                <div>
+                    Current Supported Convertions :
+                    <br />
+                    1) IFC 2x3 structural view file<span style="font-weight:bold; text-decoration:underline">.ifc</span> to STAAD file
+                    <br />
+                    2) SAP2000 file <span style="font-weight:bold; text-decoration:underline">.$2k</span> to STAAD file
+                    <br />
+                    3) IFC 2x3 structural view file<span style="font-weight:bold; text-decoration:underline">.ifc</span> to SAP2000 file
+                    <br />
+                    4) STAAD file <span style="font-weight:bold; text-decoration:underline">.std</span> to SAP2000 file
+                    <br />
+                    5) STAAD file <span style="font-weight:bold; text-decoration:underline">.std</span> to IFC 2x3 structural view file
+                    <br />
+                    6) SAP2000 file <span style="font-weight:bold; text-decoration:underline">.$2k</span> to IFC 2x3 structural view file
+                </div>
+                @using (Html.BeginForm("Convert", "Converter", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    <input type="file" name="filePosted" id="filePosted" accept=".ifc, .$2k, .std" class="inputfile inputfile-4" data-multiple-caption="{count} files selected" multiple />
+                    <label for="filePosted"><figure><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z" /></svg></figure> <span>Choose a file&hellip;</span></label>
+                    <br />
+                    <div>
+                        <span>
+                            <label>Convert To</label>
+                            <select name="writer" id="writer">
+                                <option value="ifc">IFC</option>
+                                <option value="std">STAAD</option>
+                                <option value="$2k">SAP2000</option>
+                            </select>
+                        </span>
+                    </div>
+                        <br />
+                        <input type="submit" value="Convert" class="btn btn-success btn-lg" />
+                        
+                            <br />
+                            <br />
+                            <h3>
+                                <span>
+                                    If you face a problem in converting your model, we appreciate you contacting us @@ <b> help.samc@@gmail.com</b> and we will do our best to solve the problem and contact you back notifying that.
+                                </span>
+                            </h3>
+                            <h4>
+                                <br />
+                                <br />
+                                <span>
+                                    The Converter is under development, so some cross sections, material types and load types are still under development and will not be transferred during the conversion process
+                                </span>
+                                <br />
+                                <br />
+                                <span>
+                                    We appreciate any positive/constructive feedback to enhance the converter especially if you face an issue with the converter
+                                </span>
+
+
+                            </h4>
+                }
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Scripts/custom-file-input.js"></script>
+</body>
+</html>

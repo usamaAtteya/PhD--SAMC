@@ -1,0 +1,7 @@
+TABLE:  "LOAD CASE DEFINITIONS"
+   Case=MODAL   Type=LinModal   DesignType=OTHER
+ 
+TABLE:  "PROGRAM CONTROL"
+   ProgramName=SAP2000   Version=12.0.0   CurrUnits="Kn, mm, C"
+ 
+END TABLE DATA
